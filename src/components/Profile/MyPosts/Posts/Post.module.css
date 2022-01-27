@@ -1,0 +1,40 @@
+.item {
+  color: rgb(230, 226, 0);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border: 2px solid rgb(188, 188, 188);
+  padding: 10px 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.item img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.item span {
+  padding: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: auto;
+  background-color: #fff;
+  width: 100%;
+  max-width: 70px;
+  text-align: center;
+  line-height: 24px;
+  color: rgb(138, 32, 138);
+  transition: all 0.3s ease;
+  border-style: inset;
+  border: 1px solid transparent;
+
+}
+.item span:hover {
+  background-color: rgba(255, 255, 255, 0.479);
+  border-style: inset;
+  border: 1px solid #fff;
+}
