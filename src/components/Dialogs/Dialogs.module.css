@@ -1,3 +1,25 @@
 .items {
   color: red;
 }
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.dialog:hover {
+  text-decoration: underline;
+}
+.active {
+  color: gold;
+}
+
+.messages {
+  padding: 10px;
+}
+/* .message {
+
+} */
